@@ -1,0 +1,12 @@
+<h1>リクエスト一覧</h1>
+<table>
+  <tbody id= "boxes">
+  </tbody>
+</table>
+<br>
+<%= form_with scope: '', method: 'get' do |form| %>
+  <div class="field">
+    <%= form.label :リクエスト %><br>
+    <%= form.text_field :box_request %>
+  </div>
+<% end %>
